@@ -1,0 +1,12 @@
+LBRACE \{
+RBRACE \}
+LBRACKET \[
+RBRACKET \]
+COLON :
+COMMA ,
+STRING "[^\"]*"
+NUMBER [0-9]+
+TRUE true
+FALSE false
+NULL null
+WHITESPACE [ \t\n\r]+
