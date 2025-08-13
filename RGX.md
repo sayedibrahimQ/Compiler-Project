@@ -1,0 +1,9 @@
+STRING           = "([^"\\]|\\["\\\/bfnrt]|\\u[0-9a-fA-F]{4})*"
+INTEGER          = -?(0|[1-9][0-9]*)
+FRACTION         = \.[0-9]+
+EXPONENT         = [eE][+-]?[0-9]+
+NUMBER           = {INTEGER}{FRACTION}?{EXPONENT}?
+WHITESPACE       = [ \t\n\r]+
+TRUE_KEYWORD     = true
+FALSE_KEYWORD    = false
+NULL_KEYWORD     = null
