@@ -1,0 +1,41 @@
+{
+    "emptyObject": {},
+    "emptyArray": [],
+    
+    "stringValue": "Hello World",
+    "numberValue": 12345,
+    "floatValue": 3.14159,
+    "booleanTrue": true,
+    "booleanFalse": false,
+    "nullValue": null,
+  
+    "arrayOfStrings": ["apple", "banana", "cherry"],
+    "arrayOfNumbers": [1, 2, 3, 4.5],
+    "arrayOfBooleans": [true, false, true],
+    "arrayOfNulls": [null, null],
+    
+    "nestedObject": {
+      "name": "Sayed",
+      "age": 21,
+      "skills": ["Java", "Python", "Django"],
+      "address": {
+        "city": "Cairo",
+        "zip": 12345
+      }
+    },
+  
+    "arrayOfObjects": [
+      { "id": 1, "value": "first" },
+      { "id": 2, "value": "second" }
+    ],
+  
+    "complexArray": [
+      "text",
+      42,
+      null,
+      true,
+      { "nestedKey": "nestedValue" },
+      [1, 2, 3]
+    ]
+  }
+  
